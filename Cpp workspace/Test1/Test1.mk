@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=Test1
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/Lisa/Documents/Cpp workspace"
-ProjectPath            :="C:/Users/Lisa/Documents/Cpp workspace/Test1"
+WorkspacePath          :="C:/Users/Lisa/Documents/GitHub/CPP-Course/Cpp workspace"
+ProjectPath            :="C:/Users/Lisa/Documents/GitHub/CPP-Course/Cpp workspace/Test1"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Lisa
-Date                   :=28/07/2018
+Date                   :=30/07/2018
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Lisa/Documents/Cpp workspace/Test1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Lisa/Documents/GitHub/CPP-Course/Cpp workspace/Test1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

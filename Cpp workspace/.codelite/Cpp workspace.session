@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\Lisa\Documents\Cpp workspace\Cpp workspace.workspace">
-  <int Value="1" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\Lisa\Documents\Cpp workspace\Cpp workspace.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\Lisa\Documents\GitHub\CPP-Course\Cpp workspace\Cpp workspace.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\Lisa\Documents\GitHub\CPP-Course\Cpp workspace\Cpp workspace.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\Lisa\Documents\Cpp workspace\Test1\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\Lisa\Documents\GitHub\CPP-Course\Cpp workspace\FirstProgram\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\Lisa\Documents\Cpp workspace\Template\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
